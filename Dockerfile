@@ -10,4 +10,4 @@ COPY app/*.jar $APP_HOME/app.jar
 
 WORKDIR $APP_HOME
 
-CMD ["java", "-jar", "app.jar" ]
+CMD ["java", "-jar", "app.jar"]
